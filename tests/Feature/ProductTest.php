@@ -22,9 +22,7 @@ class ProductTest extends TestCase {
             'stock' => $product->stock,
             'is_active' => $product->is_active,
         ]);
-        // $response = $this->get('/');
-
-        // $response->assertStatus(200);
+       
     }
 
     public function test_product_can_be_deleted_from_database(): void {
